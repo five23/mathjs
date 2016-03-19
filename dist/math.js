@@ -48801,6 +48801,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 	  });
 	    
+	  digamma.toTex = '\\psi\\left(${args[0]}\\right)';
+	    
 	  return digamma;
 	}
 

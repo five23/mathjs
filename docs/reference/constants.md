@@ -17,8 +17,8 @@ Constant        | Description | Value
 `pi`, `PI`      | The number pi is a mathematical constant that is the ratio of a circle\'s circumference to its diameter. | `3.141592653589793`
 `SQRT1_2`       | Returns the square root of 1/2. | `0.7071067811865476`
 `SQRT2`         | Returns the square root of 2. | `1.4142135623730951`
-`ZETA2`         | Returns the value of zeta(2) | `1.6449340668482264`
-`GAMMA`         | Euler Gamma, defined as `lim_(n->infty)(H_n-lnn)` | `0.577215664901`
+`zeta2`         | Returns the value of zeta(2) | `1.6449340668482264`
+`eulergamma`    | Euler Gamma, defined as `lim_(n->infty)(H_n-lnn)` | `0.577215664901`
 
 `tau`           | Tau is the ratio constant of a circle\'s circumference to radius, equal to `2 * pi`. | `6.283185307179586`
 `uninitialized` | Constant used as default value when resizing a matrix to leave new entries uninitialized.

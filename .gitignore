@@ -1,3 +1,4 @@
+.gitignore
 .idea
 .c9
 _site
@@ -5,3 +6,4 @@ coverage
 *swp
 node_modules
 *.log
+dist/*

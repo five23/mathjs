@@ -9,12 +9,12 @@ var assert = require('assert'),
 describe('digamma', function () {
 
   it('should calculate the digamma of an integer number', function () {
-    approx.equal(digamma(1), -math.GAMMA);
-    approx.equal(digamma(2), 1-math.GAMMA);
-    approx.equal(digamma(3), (3/2)-math.GAMMA);
-    approx.equal(digamma(4), (11/6)-math.GAMMA);
-    approx.equal(digamma(5), (25/12)-math.GAMMA);
-    approx.equal(digamma(6), (137/60)-math.GAMMA);
+    approx.equal(digamma(1), -math.eulergamma);
+    approx.equal(digamma(2), 1-math.eulergamma);
+    approx.equal(digamma(3), (3/2)-math.eulergamma);
+    approx.equal(digamma(4), (11/6)-math.eulergamma);
+    approx.equal(digamma(5), (25/12)-math.eulergamma);
+    approx.equal(digamma(6), (137/60)-math.eulergamma);
     assert.equal(digamma(Infinity), Infinity);
   });
 
@@ -52,7 +52,7 @@ describe('digamma', function () {
   });
   
   it('should calculate the gamma of a boolean', function () {
-    approx.equal(digamma(true), -math.GAMMA);
+    approx.equal(digamma(true), -math.eulergamma);
     assert.equal(digamma(false), Infinity);
   });
 
